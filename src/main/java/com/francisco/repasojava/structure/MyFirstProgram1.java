@@ -1,6 +1,7 @@
 package com.francisco.repasojava.structure;
 
 import javax.swing.*;
+import java.util.Scanner;
 
 /**
  * The type My first program 1. El nombre de la clase debe empezar siempre por mayúscula, por lo que es recomendable usar siempre
@@ -14,15 +15,17 @@ public class MyFirstProgram1 {
      * El método main es el que se encarga de ejecutar el programa
      */
     public static void main(String[] args) {
-
+        Scanner scanner = new Scanner(System.in);
         System.out.println("Mi primer programa repasando java");
         //ACTIVIDAD ORDENANDO DOS NUMEROS
-        
-        String number1 = JOptionPane.showInputDialog(null, "Ingresa el numero 1");
-        String number2 = JOptionPane.showInputDialog(null, "Ingresa el numero 2");
-        
-        int num1 = Integer.parseInt(number1);
-        int num2 = Integer.parseInt(number2);
+        //String number1 = JOptionPane.showInputDialog(null, "Ingresa el numero 1");
+        //String number2 = JOptionPane.showInputDialog(null, "Ingresa el numero 2");
+        //int num1 = Integer.parseInt(number1);
+        //int num2 = Integer.parseInt(number2);
+        System.out.println("Ingresa el numero 1");
+        int num1 = scanner.nextInt();
+        System.out.println("Ingresa el numero 2");
+        int num2 = scanner.nextInt();
         
         if(num1 > num2) {
             System.out.println("num1 = " + num1 + " es mayor");
