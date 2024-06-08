@@ -1,6 +1,5 @@
 package com.francisco.repasojava.structure;
 
-import javax.swing.*;
 import java.util.Scanner;
 
 /**
@@ -9,7 +8,7 @@ import java.util.Scanner;
  * \n
  * Una clase podemos definirla como una plantilla a utilizar
  */
-public class MyFirstProgram1 {
+public class C1VariablesAndClasses {
 
     /**
      * El método main es el que se encarga de ejecutar el programa

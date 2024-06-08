@@ -2,7 +2,7 @@ package com.francisco.repasojava.structure;
 
 import java.util.Scanner;
 
-public class DoWhileSentence {
+public class C5LoopDoWhile {
     /**
      * El ciclo do while ejecuta el código dentro del bloque
      * siempre antes de validar la condición colocada, es indispensable

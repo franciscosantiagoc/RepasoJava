@@ -11,7 +11,7 @@ import java.util.Scanner;
  * Si está entre 20 y menor a 35: imprimir Suficiente
  * Si está entre 1 y menor a 20: imprimir Insuficiente
  */
-public class MySecondProgram {
+public class C2ConditionalsAndOperators {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Introduce la capacidad actual en litros");
