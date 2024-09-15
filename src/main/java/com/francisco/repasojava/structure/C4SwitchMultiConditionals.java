@@ -2,7 +2,7 @@ package com.francisco.repasojava.structure;
 
 import java.util.Scanner;
 
-public class MySwitchProgram4 {
+public class C4SwitchMultiConditionals {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Introduce el numero del mes a convertir");
