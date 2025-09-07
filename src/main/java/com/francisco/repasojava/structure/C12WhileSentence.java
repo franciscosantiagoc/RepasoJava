@@ -2,7 +2,7 @@ package com.francisco.repasojava.structure;
 
 import java.util.Scanner;
 
-public class WhileSentence {
+public class C12WhileSentence {
     /**
      * El ciclo while valida la condición colocada antes de ejecutar
      * el código dentro del bloque, es indispensable

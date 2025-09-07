@@ -5,7 +5,7 @@ package com.francisco.repasojava.structure;
  * primitivo en una clase, para así tratarlos como si fueran objetos con la implementación de nuevas métodos
  * útiles extras dentro de la clase envoltorio
  */
-public class C12ClasesWrappers {
+public class C13ClasesWrappers {
     public static void main(String[] args) {
         //byte
         Byte varByte = 12;
