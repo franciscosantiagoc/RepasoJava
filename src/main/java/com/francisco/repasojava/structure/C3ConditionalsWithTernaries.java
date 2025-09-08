@@ -2,7 +2,7 @@ package com.francisco.repasojava.structure;
 
 import javax.swing.*;
 
-public class MyThirdProgram {
+public class C3ConditionalsWithTernaries {
     public static void main(String[] args) {
         //Obteniendo nombres y apellidos
         String name1 = JOptionPane.showInputDialog(null, "Ingresa el nombre completo de la persona 1");
