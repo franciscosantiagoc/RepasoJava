@@ -16,6 +16,18 @@ public class C16FechasJavaUtilDateParse {
             Date fecha = format.parse(scanner.nextLine());
             System.out.println("fecha: " + fecha);
             System.out.println("fecha format: " + format.format(fecha));
+
+            Date fecha2 = new Date();
+
+            if(fecha.after(fecha2)) {
+                System.out.println("Fecha del usuario es mayor que la fecha actual");
+            }else if(fecha.before(fecha2)) {
+                System.out.println("Fecha del usuario es menor a la actual");
+            }else if(fecha.equals(fecha2)) {
+                System.out.println("Fechas son iguales");
+            }
+
+            
         } catch (ParseException e) {
             throw new RuntimeException(e);
         }
