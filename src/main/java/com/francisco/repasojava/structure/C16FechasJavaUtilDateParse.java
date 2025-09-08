@@ -27,7 +27,7 @@ public class C16FechasJavaUtilDateParse {
                 System.out.println("Fechas son iguales");
             }
 
-            
+
         } catch (ParseException e) {
             throw new RuntimeException(e);
         }
